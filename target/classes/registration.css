@@ -1,0 +1,112 @@
+.root {
+    -fx-font-size: 12px;
+    -fx-background: #f2f2f2;
+    -fx-text-alignment: center;
+    -fx-padding: 40px;
+}
+
+#inputText {
+    -fx-border-width: 1px;
+    -fx-border-color: #b6b6b6;
+    -fx-padding: 5px 30px;
+    -fx-border-radius: 5px;
+    -fx-alignment: center;
+}
+
+#Btn {
+    -fx-background-color: #797979;
+    -fx-border-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-font-weight: bold;
+    -fx-margin: 10px;
+    -fx-padding: 7px 10px;
+}
+
+#txtMain {
+    -fx-font-size: 36px;
+    -fx-font-weight: 600;
+    -fx-text-fill: linear-gradient(#343a40, #212529);
+    -fx-alignment: center;
+}
+
+.grid-pane {
+    -fx-padding: 20;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+
+.combo-box {
+    -fx-background-color: #f2f2f2;
+    -fx-font-size: 12px;
+    -fx-text-alignment: left;
+    -fx-padding: 5px 10px;
+    -fx-border-width: 1px;
+    -fx-border-color: #b6b6b6;
+    -fx-border-radius: 5px;
+    -fx-pref-width: 300px;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #797979;
+    -fx-padding: 5px;
+    -fx-shape: "M 0 0 L 5 5 L 10 0";
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-text-fill: #fff;
+}
+
+.combo-box .arrow:hover {
+    -fx-background-color: #666;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #f2f2f2;
+    -fx-text-fill: #333;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #797979;
+    -fx-text-fill: #fff;
+}
+
+.combo-box .list-cell:filled:selected {
+    -fx-background-color: #797979;
+    -fx-text-fill: #fff;
+}
+
+/* Styles for Registration Form */
+.registration-form {
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+.registration-form .label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.registration-form .field {
+    -fx-padding: 5px 10px;
+    -fx-border-width: 1px;
+    -fx-border-color: #b6b6b6;
+    -fx-border-radius: 5px;
+}
+
+.registration-form .error {
+    -fx-text-fill: red;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.registration-form .submit-button {
+    -fx-background-color: #797979;
+    -fx-border-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-font-weight: bold;
+    -fx-padding: 7px 10px;
+}
+
+.registration-form .submit-button:hover {
+    -fx-background-color: #666;
+}
